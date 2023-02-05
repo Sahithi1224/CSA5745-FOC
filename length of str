@@ -1,0 +1,8 @@
+echo "enter a string "
+read a
+echo "enter another string "
+read b
+a+=$b
+echo "concatenate string is "$a
+n=${#a}
+echo"$n"
